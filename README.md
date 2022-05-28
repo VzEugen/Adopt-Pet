@@ -1,15 +1,15 @@
 # Adopt-Pet
 Eugen - repozitoriu + README.md
 
-Stefan - index.html, style.css, script.js
+Stefan - index.html, style.css, script.js, api.js
 
-Vladimir - div-ul principal
+Vladimir - forma
 
-Victoria - styling
+Victoria - styling la forma
 
 Dumitru - machet la pop-up
 
-Alexandru, Denis, Ciprian - functional
+Alexandru, Denis, Ciprian - functional JavaScript
 
 Iulian - setarea JSON server-ului
 
