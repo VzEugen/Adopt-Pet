@@ -1,5 +1,8 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .container{
-    background-color: rgb(235, 235, 235);
     width: 100%;
     height: 100%;
     display: flex;
@@ -8,7 +11,10 @@
 }
 
 .main__card{
-    background-color: aquamarine;
+    background-color: rgb(213, 216, 181);
+    max-width: 450px;
+    min-width: 250px;
+    align-items: center;
 }
 
 .m__input{
@@ -20,11 +26,13 @@
 }
 
 .m__card-name{
-    background-color: cadetblue;
+    color: rgb(162, 91, 91);
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .m__card-description{
-    background-color: lightblue;
+    background-color: rgb(128, 154, 111);
 }
 
 .m__card-submit{
@@ -32,3 +40,26 @@
 }
 
 
+.input-container{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(204, 156, 117);
+}
+
+.ic__form{
+
+}
+
+#pet-name{
+
+}
+
+#pet-description{
+
+}
+
+#image-url{
+
+}
