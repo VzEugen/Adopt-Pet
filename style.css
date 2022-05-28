@@ -48,6 +48,21 @@ body{
     background-color: rgb(204, 156, 117);
 }
 
+.submit-button{
+    width: 23%;
+    height: 50px;
+    color: rgb(249, 235, 200) !important;
+    cursor: pointer;
+    background-color: rgb(160, 188, 194) !important;
+    font-size: 17px !important;
+    font-weight: bold;
+}
+
+.submit-button:hover{
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(170, 214, 115) !important;
+}
+
 .ic__form{
     margin-top: 17px;
     margin-bottom: 17px;
@@ -61,19 +76,24 @@ body{
 .ic__form input{
     width: 23%;
     height: 30px;
-    background-color: rgb(254, 251, 231);
+    background-color: rgb(255, 248, 202);
     border-radius: 3px;
+    border-color: rgb(103, 227, 255);
+    font-size: larger;
+}
+
+.ic__form input:hover{
+    border-color: rgb(218, 229, 208);
 }
 
 .ic__form textarea{
    width: 23%;    
    height: 30px;
+   background-color: rgb(255, 248, 202);
+   border-radius: 3px;
+   border-color: rgb(103, 227, 255);
+   font-size: larger;
 }
 
-.submit-button{
-    width: 23%;
-    height: 50px;
-    /* color: ; */
-    cursor: pointer;
-}
+
 
