@@ -5,14 +5,27 @@
     <title>Title</title>
 </head>
 <body>
-
-<div class="container">
-    <div class="main__card">
-        <input type="file" class="m__input">
-        <img src="#" alt="dog photo" class="m__card-image">
-        <h3 class="m__card-name">Tuzic Frumos</h3>
-        <span class="m__card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut distinctio esse eveniet, expedita fugit ipsam minima mollitia nam, natus nemo nobis, rem totam voluptates! Deleniti!</span>
-        <button class="m__card-submit" type="submit"></button>
+    <div class="input-container">
+        <form class="ic__form">
+            <label for="pet-name">Enter pet name</label>
+            <input type="text" id="pet-name" placeholder="Name">
+            <label for="pet-description">Enter pet description</label>
+            <input type="text" id="pet-description" placeholder="Name">
+            <label for="image-url">Enter image url</label>
+            <input type="text" id="image-url" placeholder="url">
+            <input type="submit">
+        </form>
     </div>
-</div></body>
+
+
+    <div class="container">
+        <div class="main__card">
+         <input type="file" class="m__input">
+            <img src="#" alt="dog photo" class="m__card-image">
+            <h3 class="m__card-name">Tuzic Frumos</h3>
+          <span class="m__card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut distinctio esse eveniet, expedita fugit ipsam minima mollitia nam, natus nemo nobis, rem totam voluptates! Deleniti!</span>
+         <button class="m__card-submit" type="submit"></button>
+     </div>
+    </div>
+</body>
 </html>
