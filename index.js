@@ -3,7 +3,7 @@ const generator = (name, img, description, button) =>{
     const container = document.createElement("div");
     container.classList.add("main__card");
     const images = document.createElement("img");
-    img.classist.add("m__card-image");
+    img.classList.add("m__card-image");
     const names = document.createElement("h3")
     name.classList.add("m__card-name")
     const descriptions = document.createElement("span")
