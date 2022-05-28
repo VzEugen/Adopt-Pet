@@ -41,7 +41,7 @@ body{
 
 
 .input-container{
-    height: 50px;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -49,17 +49,31 @@ body{
 }
 
 .ic__form{
-
+    margin-top: 17px;
+    margin-bottom: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1000px;
 }
 
-#pet-name{
-
+.ic__form input{
+    width: 23%;
+    height: 30px;
+    background-color: rgb(254, 251, 231);
+    border-radius: 3px;
 }
 
-#pet-description{
-
+.ic__form textarea{
+   width: 23%;    
+   height: 30px;
 }
 
-#image-url{
-
+.submit-button{
+    width: 23%;
+    height: 50px;
+    /* color: ; */
+    cursor: pointer;
 }
+
