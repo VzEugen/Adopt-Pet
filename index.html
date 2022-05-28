@@ -5,27 +5,26 @@
     <title>Title</title>
 </head>
 <body>
-    <div class="input-container">
-        <form class="ic__form">
+<div class="input-container">
+    <form class="ic__form"">
 
-            <input type="text" id="pet-name" placeholder="Name" name="pet">
-            <label for="pet-description">Enter pet description</label>
-            <input type="text" id="pet-description" placeholder="Description">
-            <label for="image-url">Enter image url</label>
-            <input type="text" id="image-url" placeholder="url">
-            <input type="submit">
-        </form>
+        <input type="text" placeholder="name" name="pet-name" autocomplete="off">
+        <input type="text" placeholder="url" name="pet-image" autocomplete="off">
+        <textarea name="description" placeholder="Description"></textarea>
+        <input type="submit" class="submit-button" value="Add animal">
+
+    </form>
+</div>
+
+
+<div class="container">
+    <div class="main__card">
+        <img src="#" alt="dog photo" class="m__card-image">
+        <h2 class="m__card-name">Tuzic Frumos</h2>
+        <span class="m__card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut distinctio esse eveniet, expedita fugit ipsam minima mollitia nam, natus nemo nobis, rem totam voluptates! Deleniti!</span>
+        <h3 class="m__card-summa">Donated: 32$</h3>
+        <button class="m__card-donate" type="submit"></button>
     </div>
-
-
-    <div class="container">
-        <div class="main__card">
-            <img src="#" alt="dog photo" class="m__card-image">
-            <h2 class="m__card-name">Tuzic Frumos</h2>
-          <span class="m__card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut distinctio esse eveniet, expedita fugit ipsam minima mollitia nam, natus nemo nobis, rem totam voluptates! Deleniti!</span>
-            <h3 class="m__card-summa">Donated: 32$</h3>
-         <button class="m__card-donate" type="submit"></button>
-     </div>
-    </div>
+</div>
 </body>
 </html>
