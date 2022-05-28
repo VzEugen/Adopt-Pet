@@ -3,14 +3,20 @@ Eugen - repozitoriu + README.md
 
 Stefan - index.html, style.css, script.js, api.js
 
-Vladimir - forma
+Vladimir - machetul adaugarii unui animal
 
-Victoria - styling la forma
+Dumitru - machet la donatii, generator al cardului
 
-Dumitru - machet la pop-up
+Victoria - styling
 
-Alexandru, Denis, Ciprian - functional JavaScript
+Alexandru - fetch metoda getAllAnimals
+
+Denis - functie createAnimals
+
+Ciprian - metoda delete, update donation prin fetch
 
 Iulian - setarea JSON server-ului
 
-Daniel - team lead
+Daniel - functia pentru adaugarea animalului
+
+Stefan - functia update donation
