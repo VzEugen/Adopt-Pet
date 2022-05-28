@@ -1,64 +1,81 @@
 {
   "animals": [
     {
+      "id": 1,
       "name": "Luna",
       "imgSrc": "https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg",
-      "price": 0,
+      "donation": 0,
       "description": "Rambo here! Hello, I am looking for my forever home. My new family should have some dog experience as I am a big boy and would benefit from some positive reinforcement training to refine my manners. I LOVE to play fetch, and will prance around and make you laugh when I find the perfect stick. Are you looking for a big love who you can show all the finer things in life? Please consider me and apply today."
     },
     {
-     "name": "Kip",
-     "imgSrc":"https://cdn.adopets.com/organization/pet/picture/2022428_1937_1653700177826.jpeg?width=600",
-      "price": 0,
+      "id": 2,
+      "name": "Kip",
+      "imgSrc": "https://cdn.adopets.com/organization/pet/picture/2022428_1937_1653700177826.jpeg?width=600",
+      "donation": 0,
       "description": "Kip here, I'm just about as perfect as they come. I'm a happy go lucky type who always wears a smile on my face. I came as a stray so not a lot is known of my life before coming to the shelter. I'm looking forward to the future in a new home, could you be my new family"
     },
     {
-      "name":"Glacier",
-      "imgSrc":"https://cdn.adopets.com/organization/pet/picture/2022425_234041_1653522041746.jpeg?width=600",
-      "price": 0,
+      "id": 3,
+      "name": "Glacier",
+      "imgSrc": "https://cdn.adopets.com/organization/pet/picture/2022425_234041_1653522041746.jpeg?width=600",
+      "donation": 0,
       "description": "I make the best of every situation and I love to play! If you are looking for a fun, playful dog to add some joy to your life and help make you laugh, then look no further. I will bring endless fun and keep you entertained with my goofy antics. If you can keep up with me then I promise that we will have a life full of enjoyment with lots of great stories! I am a sweet girl who has been very well behaved at the shelter."
     },
     {
-      "name":"Riley",
-      "imgSrc":"https://www.multcopets.org/sites/default/files/styles/medium/public/animal_photos/nid_55001-57500/55152_default_photo.jpg?itok=m4DF-9d4",
-      "price": 0,
+      "id": 4,
+      "name": "Riley",
+      "imgSrc": "https://www.multcopets.org/sites/default/files/styles/medium/public/animal_photos/nid_55001-57500/55152_default_photo.jpg?itok=m4DF-9d4",
+      "donation": 0,
       "description": " I'm a handsome and slender Holstein-marked gentleman who recently lost my family, whom I've lived with for almost my whole life, after they passed. I have a cute little meow that I use to get your attention, and am friendly but also a bit independent. I am used to a quiet home, and don't think I would do great with a family that was busy."
     },
     {
-      "name":"Pip",
-      "imgSrc":"https://www.multcopets.org/sites/default/files/styles/medium/public/animal_photos/nid_55001-57500/56179_default_photo.jpg?itok=3bQ9Fi5G",
-      "price": 0,
+      "id": 5,
+      "name": "Pip",
+      "imgSrc": "https://www.multcopets.org/sites/default/files/styles/medium/public/animal_photos/nid_55001-57500/56179_default_photo.jpg?itok=3bQ9Fi5G",
+      "donation": 0,
       "description": "Cats like me are really sweet with people when we feel at home, especially when we know them well. In new places, we tend to need a little time and space to figure out that the coast is clear. I've had a rough few days here at the shelter and would really like my on space to relax and decompress."
     },
     {
-      "name":"Carlos",
-      "imgSrc":"https://www.multcopets.org/sites/default/files/styles/medium/public/animal_photos/nid_55001-57500/56437_default_photo.jpg?itok=PYZtsKrr",
-      "price": 0,
+      "id": 6,
+      "name": "Carlos",
+      "imgSrc": "https://www.multcopets.org/sites/default/files/styles/medium/public/animal_photos/nid_55001-57500/56437_default_photo.jpg?itok=PYZtsKrr",
+      "donation": 0,
       "description": "I came to the shelter after a good samaritan was able to trap me in their garage, where I had moved in. I was pretty scared at first, but I am warming up to the staff here and they think I am a housecat searching for my forever home. Because I was a stray, the shelter has no information about my history."
     },
     {
-      "name":"Arnold",
-      "imgSrc":"https://pbs.twimg.com/media/Eebx9QXXgAAWOS-.jpg",
-      "price": 0,
+      "id": 7,
+      "name": "Arnold",
+      "imgSrc": "https://pbs.twimg.com/media/Eebx9QXXgAAWOS-.jpg",
+      "donation": 0,
       "description": "I am a hard working crocoile that can drive i came from  the swamps and now im am looking for an owner. Please adopt me i will drive your kids to school and make them breakfast im am very clean and nice but hwen i get angry i can bite."
     },
     {
-      "name":"Pentro",
-      "imgSrc":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fnationaltoday.com%2Fnational-pet-rock-day%2F&psig=AOvVaw3vt_PobpZUq3T9DiU8EZCs&ust=1653819561682000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKCT8Y78gfgCFQAAAAAdAAAAABAD",
-      "price": 0,
+      "id": 8,
+      "name": "Pentro",
+      "imgSrc": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnationaltoday.com%2Fnational-pet-rock-day%2F&psig=AOvVaw3vt_PobpZUq3T9DiU8EZCs&ust=1653819561682000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKCT8Y78gfgCFQAAAAAdAAAAABAD",
+      "donation": 0,
       "description": "I am a rock"
     },
     {
-      "name":"Dandelion",
-      "imgSrc":"https://www.multcopets.org/sites/default/files/styles/medium/public/animal_photos/nid_52501-55000/54561_default_photo.jpg?itok=1LNERln3",
-      "price": 0,
+      "id": 9,
+      "name": "Dandelion",
+      "imgSrc": "https://www.multcopets.org/sites/default/files/styles/medium/public/animal_photos/nid_52501-55000/54561_default_photo.jpg?itok=1LNERln3",
+      "donation": 0,
       "description": "I will be your best pal! Like most rabbits, I am cautious around new people and situations. Litter box training is going ok but I don't quite have it perfect just yet. I love fresh greens and other tasty snacks, we could use those things to be bond and be even closer! If you would like to learn more about me, apply online today! "
     },
     {
-      "name":"Johnny",
-      "imgSrc":"https://www.multcopets.org/sites/default/files/styles/medium/public/animal_photos/nid_55001-57500/56702_default_photo.jpg?itok=Ev7Ru1aa",
+      "id": 10,
+      "name": "Johnny",
+      "imgSrc": "https://www.multcopets.org/sites/default/files/styles/medium/public/animal_photos/nid_55001-57500/56702_default_photo.jpg?itok=Ev7Ru1aa",
       "description": "I am Johnny an active and playful six year old Pit Bull mix looking for a new home. You could call me the hands-on type but since I do not have hands I learn with my mouth. To an exuberant dog like me everything is a game, sometimes I just get so excited I will jump up and grab the first thing that looks like a toy.",
-      "price": 0
+      "donation": 0
+    },
+    {
+      "name": "bobik",
+      "img": "wwwwwwwwwwww",
+      "description": "very cute",
+      "donation": 0,
+      "id": 11
     }
   ]
 }

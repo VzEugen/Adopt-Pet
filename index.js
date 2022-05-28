@@ -18,3 +18,23 @@ const generator = (name, img, description, button) =>{
 
         
 }
+
+const form = document.querySelector('#animal-form');
+form.addEventListener("submit",(event) => {
+    event.preventDefault();
+
+    const target = event.target;
+    const animal = {
+        name: target.name.value,
+        img: target.image.value,
+        description: target.description.value,
+        donation: 0,
+    }
+
+    createAnimal(animal)
+    .then((result) => {
+        console.log(result);
+    }).catch((err) => {
+        console.log("error");
+    });
+})
